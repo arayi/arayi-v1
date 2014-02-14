@@ -6,7 +6,7 @@ Refinery::Pages.configure do |config|
   # end
 
   # Configure global page default parts
-  # config.default_parts = ["Body", "Side Body"]
+  config.default_parts = ["Body"]
 
   # Configure whether to allow adding new page parts
   # config.new_page_parts = false
@@ -53,5 +53,5 @@ Refinery::Pages.configure do |config|
 
   # config.absolute_page_links = false
 
-  # config.show_title_in_body = true
+config.show_title_in_body = false
 end
