@@ -36,7 +36,7 @@
 // $total-columns: 12;
 
 // We use these to control various global styles
-// $body-bg: #fff;
+$body-bg: #fefefe;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
@@ -1194,3 +1194,27 @@
 // $include-html-visibility-classes: $include-html-classes;
 
 @import 'foundation';
+
+.front-panel {
+  @include panel();
+  background-color: #333;
+  color: #d9d9d9;
+  border-width: 5px;
+  border-top: none;
+  border-bottom: none;
+  border-color: #ccc;
+  margin-bottom: 0;
+}
+
+.front-panel:hover {
+  border-color: $primary-color;
+}
+
+.socialicon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.socialicon:hover {
+  box-shadow: inset 5px 0px $primary-color, inset -5px 0px $primary-color;
+}

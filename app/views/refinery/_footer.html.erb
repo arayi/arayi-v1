@@ -1,15 +1,21 @@
-<div id="footer" class="row">
-  <div class="small-8 columns">
+<div id="foot" class="row">
+
+  <div class="row">
+    <div class="small-10 small-centered columns">
+      <hr />
+    </div>
+  </div>
+
+  <div class="small-6 columns">
     <ul class="inline-list">
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-      <li><a href="#">Link 4</a></li>
-      <li><a href="#">Link 5</a></li>
+      <li class="socialicon"><a href="http://twitter.com/arayi"><%= image_tag("svgs/fi-social-twitter.svg", size: "32x32") %></a></li>
+      <li class="socialicon"><a href="http://www.linkedin.com/in/melodymustaine"><%= image_tag("svgs/fi-social-linkedin.svg", size: "32x32") %></a></li>
+      <li class="socialicon"><a href="http://github.com/arayi"><%= image_tag("svgs/fi-social-github.svg", size: "32x32") %></a></li>
+      <li class="socialicon"><a href="http://steamcommunity.com/profiles/76561198028326445"><%= image_tag("svgs/fi-social-steam.svg", size: "32x32") %></a></li>
     </ul>
   </div>
-  <div class="text-right small-4 columns">
-    <%= t('.copyright', :year => Time.now.year,
-                        :site_name => Refinery::Core.site_name) %>
+  <div class="text-right small-6 columns copyright">
+    <h5><%= t('.copyright', :year => Time.now.year,
+                        :site_name => "Melody Mustaine") %></h5>
   </div>
 </div>
