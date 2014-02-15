@@ -1,4 +1,18 @@
 == This is my site.
 There are many other sites on the great big interwebs, but this is mine. I'm pretty fond of it.
 
-I built it using RefineryCMS and Zurb Foundation. It's live at arayi.org, running on Heroku's Cedar stack with Amazon S3 for media storage.
+I built it using RefineryCMS (Rails 3.2.16) and Zurb Foundation 5. It's live at arayi.org, running on Heroku's Cedar stack with Amazon S3 for media storage.
+
+== Some things to do...
+**Top priorities:**
+1. Change local DB to PG
+2. https://devcenter.heroku.com/articles/heroku-postgres-import-export
+3. Allow custom page sections & set 'show' view to format each section
+4. Content for current pages
+5. Layout for blog 
+
+**Other stuff (not in order)**
+* Native support for modifying SVG with CSS
+* Top menu "name" link doesn't act as link when small-screen menu isn't showing (refinery default behavior?)
+* Data type for automatically parsing code projects from GitHub?
+* Consolidate SoundCloud and embed in Music page
