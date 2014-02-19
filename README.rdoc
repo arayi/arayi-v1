@@ -5,14 +5,16 @@ I built it using RefineryCMS (Rails 3.2.16) and Zurb Foundation 5. It's live at 
 
 === Some things to do...
 ====Top priorities:
-1. Change local DB to PG
-2. https://devcenter.heroku.com/articles/heroku-postgres-import-export
-3. Allow custom page sections & set 'show' view to format each section
-4. Content for current pages
-5. Layout for blog 
+1. Content for current sections
+  * Make: left side list of code projects, right side Soundcloud widget
+  * Do: set sub-sections via blog tags?
+  * Love: sections: learn to code (WWC, RB, HFW), gaming, blogs
+2. Styling for blog
+3. Image for bottom-right (1 or 2?)-column section of About page
 
 ====Other stuff (not in order)
 * Native support for modifying SVG with CSS
 * Top menu "name" link doesn't act as link when small-screen menu isn't showing (refinery default behavior?)
 * Data type for automatically parsing code projects from GitHub?
 * Consolidate SoundCloud and embed in Music page
+* Set controller for page content to auto render grid for custom sections
