@@ -8,7 +8,7 @@
 
   <div class="small-1 columns"></div>
 
-  <div class="small-10 small-centered columns">
+  <div class="small-12 large-10 small-centered columns">
     <ul class="small-block-grid-1">
       <li><%= image_tag("namebanner.png", :style => "position:relative; top:13px") %></li>
     <ul>
@@ -27,21 +27,32 @@
 <div class="row">
   <div class="small-9 small-centered columns">
     <div class="row">
-      <div class="small-4 columns">
-        <div class="front-panel">
-          <a href="/make"><%= image_tag("make.png") %></a>
-        </div>
+      <div class="small-9 medium-7 large-4 small-centered large-uncentered columns">
+        <a href="/make">
+          <div class="front-panel">
+          <%= image_tag("make.png") %>
+          </div>
+        </a>
       </div>
-      <div class="small-4 columns">
-        <div class="front-panel">
-          <a href="/do"><%= image_tag("do.png") %></a>
-        </div>
+      <div class="row hide-for-large-up">
+        <div class="small-9 small-centered columns"><hr></div>
       </div>
-      <div class="small-4 columns">
-        <div class="front-panel">
-          <a href="/love"><%= image_tag("love.png") %></a>
-        </div>
+      <div class="small-9 medium-7 large-4 small-centered large-uncentered columns">
+        <a href="/do">
+          <div class="front-panel">
+          <%= image_tag("do.png") %>
+          </div></a>
       </div>
-    </ul>
+      <div class="row hide-for-large-up">
+        <div class="small-9 small-centered columns"><hr></div>
+      </div>
+      <div class="small-9 medium-7 large-4 small-centered large-uncentered columns">
+        <a href="/love">
+          <div class="front-panel">
+          <%= image_tag("love.png") %>
+        </div></a>
+      </div>
+    </div>
   </div>
 </div>
+
