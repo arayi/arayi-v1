@@ -1,21 +1,6 @@
-== This is my site.
-There are many other sites on the great big interwebs, but this is mine. I'm pretty fond of it.
+== This is the first version of my site.
+I built it using RefineryCMS (Rails 3.2.16) and Zurb Foundation 5; I deployed it on Heroku's Cedar stack with Amazon S3 for media storage.
 
-I built it using RefineryCMS (Rails 3.2.16) and Zurb Foundation 5. It's live at arayi.org, running on Heroku's Cedar stack with Amazon S3 for media storage.
+It was a fun experiment, but I'm replacing it with something a little more full-stack JS.
 
-=== Some things to do...
-====Top priorities:
-* Content for current sections
-  * Make: left side list of code projects, right side Soundcloud widget
-  * Do: set sub-sections via blog tags?
-  * Love: sections: learn to code (WWC, RB, HFW), gaming, blogs
-* Fix responsivity on home images
-* Styling for blog
-* Image for bottom-right (1 or 2?)-column section of About page
-
-====Other stuff (not in order)
-* Native support for modifying SVG with CSS
-* Top menu "name" link doesn't act as link when small-screen menu isn't showing (refinery default behavior?)
-* Data type for automatically parsing code projects from GitHub?
-* Consolidate SoundCloud and embed in Music page
-* Set controller for page content to auto render grid for custom sections
+Thanks for checking out my code.
